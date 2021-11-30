@@ -1,0 +1,18 @@
+[package]
+authors = ["Yixian Du <duyixian1234@qq.com>"]
+categories = ["command-line-utilities"]
+description = "A .gitignore file generator"
+edition = "2021"
+keywords = ["git"]
+license = "MIT"
+name = "rsgg"
+readme = "README.md"
+repository = "https://github.com/duyixian1234/rsgg"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.34.0"
+reqwest = {version = "0.11.6", features = ["json"]}
+tokio = {version = "1.14.0", features = ["full"]}
